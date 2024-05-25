@@ -1,7 +1,9 @@
-numberList = [15, 85, 35, 89, 125, 2]
+vowel = ['a', 'e', 'i', 'o', 'u']
+word = "programming"
+count = 0
+for character in word:
+    if character not in vowel:
+        count += 1
+print(count)
 
-minNum = numberList[0]
-for num in numberList:
-    if minNum > num:
-        minNum = num
-print(minNum)
+> 8
