@@ -10,6 +10,6 @@ def letter_frequency(in_string):
     return frequencies
 
 # Example run    
-freqs = letter_frequency("This is just a test string")
+freqs = letter_frequency("This is just test string")
 
 print(freqs)
